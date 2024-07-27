@@ -1,0 +1,25 @@
+The full form of NASA is National Aeronautics and Space Administration.	NASA stands for National Aeronautics and Space Administration.	1.0
+The full form of NASA is National Aeronautics and Space Administration.	The full form of NASA is National Aeronautics and Space Association.	0.8
+NASA stands for National Aeronautics and Space Administration.	NASA is a government agency for space exploration.	0.6
+The full form of NASA is National Aeronautics and Space Association.	NASA is the National Aeronautics and Space Administration, responsible for space missions.	0.7
+NASA is a government agency for space exploration.	The abbreviation NASA stands for National American Space Association.	0.4
+NASA is the National Aeronautics and Space Administration, responsible for space missions.	The abbreviation NASA stands for National American Space Association.	0.2
+NASA was founded in 1958.	The National Aeronautics and Space Administration was established in 1958.	0.9
+The first human to walk on the moon was Neil Armstrong.	NASA's Apollo 11 mission landed the first humans on the moon.	0.7
+NASA's Hubble Space Telescope was launched in 1990.	The Hubble Telescope, operated by NASA, has been in orbit since 1990.	0.9
+The International Space Station is a joint project of five space agencies.	NASA collaborates with other space agencies on the ISS.	0.6
+NASA's Mars Rover Curiosity landed on Mars in 2012.	The Curiosity Rover, launched by NASA, is exploring the surface of Mars.	0.8
+The Space Shuttle program ended in 2011.	NASA retired its Space Shuttle fleet in 2011 after 30 years of service.	0.9
+NASA's Artemis program aims to return humans to the moon.	The goal of Artemis is to land the first woman and next man on the lunar surface.	0.8
+The Voyager 1 spacecraft, launched by NASA, has left our solar system.	NASA's Voyager 1 is the first human-made object to enter interstellar space.	0.9
+NASA uses satellite technology to study climate change.	The space agency employs satellites to monitor global environmental changes.	0.7
+The Orion spacecraft is designed for deep space exploration.	NASA's Orion capsule will carry astronauts to the Moon and beyond.	0.8
+NASA's Juno mission is studying Jupiter.	The Juno spacecraft, operated by NASA, is orbiting and analyzing Jupiter.	0.9
+The agency collaborates with SpaceX for ISS resupply missions.	NASA partners with private companies like SpaceX for space station cargo deliveries.	0.8
+NASA's OSIRIS-REx mission successfully collected samples from asteroid Bennu.	The OSIRIS-REx spacecraft, launched by NASA, retrieved material from an asteroid.	0.9
+The James Webb Space Telescope is NASA's next-generation space observatory.	NASA's James Webb Telescope will succeed the Hubble Space Telescope.	0.8
+NASA conducts aeronautics research to improve aviation technology.	The space agency also focuses on advancing aircraft design and efficiency.	0.7
+The Mercury program was NASA's first human spaceflight program.	NASA's initial manned space missions were part of Project Mercury.	0.9
+NASA's Perseverance Rover is searching for signs of ancient microbial life on Mars.	The Perseverance mission aims to find evidence of past life on the Red Planet.	0.8
+The agency operates the Deep Space Network for spacecraft communication.	NASA uses a system of antennas to communicate with distant space probes.	0.7
+NASA's Earth Observing System monitors global environmental changes.	The space agency uses satellites to study Earth's climate and ecosystems.	0.8
