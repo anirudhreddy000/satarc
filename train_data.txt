@@ -23,3 +23,7 @@ The Mercury program was NASA's first human spaceflight program.	NASA's initial m
 NASA's Perseverance Rover is searching for signs of ancient microbial life on Mars.	The Perseverance mission aims to find evidence of past life on the Red Planet.	0.8
 The agency operates the Deep Space Network for spacecraft communication.	NASA uses a system of antennas to communicate with distant space probes.	0.7
 NASA's Earth Observing System monitors global environmental changes.	The space agency uses satellites to study Earth's climate and ecosystems.	0.8
+
+
+Student Association for technology analysis to regulate cyber crime
+all-MiniLM-L6-v2

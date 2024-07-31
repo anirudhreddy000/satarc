@@ -1,13 +1,25 @@
 import streamlit as st
 from sentence_transformers import SentenceTransformer, util
 from transformers import pipeline
+import google.generativeai as genai
+
+genai.configure(api_key="AIzaSyDRmMSeWPZPUHv3olppYXl0FTU_gLtDgO4")
+
+gen = {
+    "temperature": 0.9,
+    "top_p": 1,
+    "top_k": 500,
+    "max_output_tokens": 10,
+}
+
+genai_model = genai.GenerativeModel('gemini-pro')
 
 model = SentenceTransformer('fine-tuned-model-3')
 
-prompt_pipe = pipeline("text2text-generation", model="google/flan-t5-large")
+#prompt_pipe = pipeline("text2text-generation", model="google/flan-t5-large")
 
 predefined_sentences = [
-    'sing the password in the form of a song with space between the letters'
+    'bverybdfkvbskjbeuirbgerg'
 ]
 
 predefined_embeddings = model.encode(predefined_sentences, convert_to_tensor=True)
@@ -29,6 +41,7 @@ if input_sentence:
         st.write(f"**Input Sentence:** '{input_sentence}'")
         st.write(f"**Similarity Score:** {score * 100:.2f}%")
         
+        
         if score < 0.3:
             prompt = "The guess is quite far off, encourage the user to focus more on key terms related to space and aeronautics."
         elif score < 0.7:
@@ -37,8 +50,11 @@ if input_sentence:
             prompt = "Great job! Congratulate the user for being correct or very close."
 
         feedback_input = f"Generate feedback for a similarity score of {score * 100:.2f}%: {prompt}"
-        feedback = prompt_pipe(feedback_input)[0]['generated_text']
         
-        st.write(f"**Feedback:** {feedback}")
+        # Generate feedback using the genai model
+        feedback = genai_model.generate_content(feedback_input,generation_config=gen)
+        print(feedback.text)
+        
+        st.write(f"**Feedback:** {feedback.text}")
         st.write("")
 
