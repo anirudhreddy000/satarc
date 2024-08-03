@@ -3,7 +3,7 @@ from sentence_transformers import SentenceTransformer, util
 from transformers import pipeline
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyDRmMSeWPZPUHv3olppYXl0FTU_gLtDgO4")
+genai.configure(api_key="API_KEY")
 
 gen = {
     "temperature": 0.9,
